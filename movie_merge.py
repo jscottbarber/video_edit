@@ -70,9 +70,6 @@ srt_file.save(srt_filepath, encoding='UTF-8')
 #Prepare to loop through directory to create video file
 clip_list = []  #List (collection) of all clips being concatinated
 
-running_video_duration = 0.0 #End SRT index in seconds
-srt_entry_num = 0  #SRT file entry number
-
 #Itterate through all files in the input directory
 #For the sake of the output filename, this assumes all files in the folder are clips from the same day
 for epoch_str in sorted(directory.keys()):
