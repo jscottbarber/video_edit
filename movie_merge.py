@@ -4,7 +4,6 @@ from moviepy.editor import VideoFileClip, concatenate_videoclips, vfx
 import os
 import datetime
 import pysrt
-import time
 
 def srt_format_timestamp(sec_duration):
   """Converts a number of seconds to an 00:00:00,000 (Hours:Minutes:Seconds,000) format"""
