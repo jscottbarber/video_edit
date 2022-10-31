@@ -6,6 +6,8 @@ Uses: time, moviepy, os, datetime, pysrt, and conf (self-defined)
 
 **conf.py** - Defines related folder structure information.
 
+**create_folders.py** - A utility used to create folders under D:\Video\Arlo\[current_year] for each day of the current month (format: D:\Video\Arlo\2022\2022-10-31), skipping folders that may already exist.  These folders are used when manually downloading security videos from Arlo's website.
+
 **media_info.py** - Incomplete
 
 **one_thumbs.py** - Incomplete
