@@ -9,6 +9,9 @@ def srt_format_timestamp(sec_duration):
   """Converts a number of seconds to an 00:00:00,000 (Hours:Minutes:Seconds,000) format"""
   return time.strftime("%H:%M:%S,000", time.gmtime(sec_duration))
 
+SAMPLE_INPUTS = 'D:\\Video\\Arlo\\2022\\2022-10-01'
+SAMPLE_OUTPUTS = 'D:\\Video\\Arlo\\2022\\2022-10'
+
 this_dir = os.listdir(SAMPLE_INPUTS)
 directory = {}
 
